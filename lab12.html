@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language learning</title>
+    <link rel="stylesheet" href="./css/lab12.css">
+    <link rel="icon" href="./img/book.png">
+    <script src="./css/js/lab12.js" defer></script>
+    <script src="./jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <div id="window-difficulty">
+        <input id="easy-level" class="button" type="button" value="Простий рівень">
+        <input id="medium-level" class="button" type="button" value="Середній рівень">
+        <input id="hard-level" class="button" type="button" value="Складний рівень">
+    </div>
+    <div id="result-game"></div>
+    <div id="window-win">
+        <div id="correct-window">
+            Правильний відповідей
+            <div id="count-correct-window"></div>
+        </div>
+        <div id="uncorrect-window">
+            Неправильних відповідей
+            <div id="count-uncorrect-window"></div>
+        </div>
+    </div>
+    <div id="window-form"></div>
+    <div id="step">0/10</div>
+    <input id="text" type="text" placeholder="Введіть сюди переклад...">
+    <div id="answer">
+        <div id="correct" class="score">
+            Правильно
+            <div id="count-correct" ></div>
+        </div>
+        <div id="uncorrect" class="score">
+            Не правильно
+            <div id="count-uncorrect"></div>
+        </div>
+    </div>
+</body>
+</html>
